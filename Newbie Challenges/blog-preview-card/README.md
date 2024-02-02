@@ -22,13 +22,13 @@ Users should be able to:
 
 ### Screenshot
 
-
+<img width="250" alt="blog1" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/afaf53d5-c0d7-4efa-97de-7e1899d0c1cf">
+<img width="218" alt="blog1" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/672e9c44-155a-47ed-8805-834ad1099537">
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
+- Solution URL: [GitHub Repo](https://your-solution-url.com)
+- Live Site URL: [Visit](https://your-live-site-url.com)
 
 ### Built with
 
