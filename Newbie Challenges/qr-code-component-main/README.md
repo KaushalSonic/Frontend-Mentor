@@ -23,8 +23,8 @@ Day 1 of Frontend Mentor Challenges.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/KaushalSonic/Frontend-Mentor/tree/main/Newbie%20Challenges/qr-code-component-main)
+- Live Site URL: [Add live site URL here](https://qr-code-component-sable-eight.vercel.app/)
 
 ## My process
 
