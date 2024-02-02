@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repo](https://your-solution-url.com)
-- Live Site URL: [Visit](https://your-live-site-url.com)
+- Solution URL: [GitHub Repo](https://github.com/KaushalSonic/Frontend-Mentor/tree/main/Newbie%20Challenges/blog-preview-card)
+- Live Site URL: [Visit](https://blog-preview-card-taupe.vercel.app/)
 
 ### Built with
 
