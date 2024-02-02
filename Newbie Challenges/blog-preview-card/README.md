@@ -22,8 +22,6 @@ Users should be able to:
 
 ### Screenshot
 
-![](./solution%20ss/blog1.png)
-![](./solution%20ss/blog2.png)
 
 
 ### Links
