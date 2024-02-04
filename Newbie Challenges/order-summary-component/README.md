@@ -59,9 +59,11 @@ See below:
     background-color: var(--Pale-blue);
     background-image: url('./images/pattern-background-desktop.svg');
     background-repeat: no-repeat;
+    background-position-y: -5.5rem;
 }
 ```
 For Mobile Responsiveness
+
 ```css
 @media screen and (max-width: 400px){
     html{
@@ -69,6 +71,7 @@ For Mobile Responsiveness
     }
     .wrapper{
         background-image: url('./images/pattern-background-mobile.svg');
+        background-size: 115%;
         background-position: top;
     }
 }
