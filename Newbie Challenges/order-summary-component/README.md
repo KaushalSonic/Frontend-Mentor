@@ -59,7 +59,8 @@ See below:
     background-color: var(--Pale-blue);
     background-image: url('./images/pattern-background-desktop.svg');
     background-repeat: no-repeat;
-    background-position-y: -5.5rem;
+    background-size: 100%;
+    background-position-y: -4.5rem;
 }
 ```
 For Mobile Responsiveness
