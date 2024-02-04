@@ -26,7 +26,7 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-
+<img width="400" alt="blog1" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/94548c50-c143-4047-bf6b-130ef817f70b">
 
 ### Links
 
