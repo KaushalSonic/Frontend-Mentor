@@ -117,18 +117,20 @@ main{
 .profile-status > div:last-child{
     margin-right: 1rem;
 }
+
+/* For Mobile responsiveness */
+
 @media screen and (max-width: 400px){
     html{
         font-size: 14px;
     }
     .wrapper::before{
-        content: url('./images/bg-pattern-top.svg');
-        position: absolute;
-        top: -33rem;
-        left: -18.2rem;
+        top: -45rem;
+        left: -52rem;
+        
     }
     .wrapper::after{
-        bottom: -40.5rem;
-        right: -14.2rem;
+        bottom: -45rem;
+        right: -50.5rem;
     }
 }
