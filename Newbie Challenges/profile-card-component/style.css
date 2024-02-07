@@ -30,28 +30,31 @@ html{
     overflow: hidden;
     z-index: -1;
 }
+/* Using Pseudo selectors for placing two background images */
 .wrapper::before{
     content: url('./images/bg-pattern-top.svg');
     position: absolute;
-    top: -33rem;
-    left: -18.2rem;
+    /* Using vw, vh (viewport units) for resolve issue of displacement of images while upscale or downscale browser. */
+    bottom: 35vh;
+    right: 51.8vw;
     z-index: -1;
 }
 .wrapper::after{
     content: url('./images/bg-pattern-bottom.svg');
     position: absolute;
-    bottom: -40.5rem;
-    right: -14.2rem;
+    top: 51.5vh;
+    left: 47.5vw;
     z-index: -1;
 }
 main{
     width: 22rem;
-    height: 23rem;
+    height: 23.2rem;
     border-radius: 0.8rem;
     background-color: #fff;
     overflow: hidden;
     text-align: center;
     z-index: 1;
+    box-shadow: 0 20px 60px -20px var(--secondary);
 }
 .card-background img{
     width: 100%;
@@ -73,22 +76,22 @@ main{
     margin-top: 5rem;
     width: 100%;
 }
-.profile-desc p{
+.profile-desc h1{
     font-size: 1.1rem;
     font-weight: 700;
     color: var(--secondary);
+}
+
+.profile-desc p{
+    margin-top: 0.5rem;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: var(--neutral);
 }
 .profile-id{
     margin-left: 0.5rem;
     font-size: 1.1rem;
     font-weight: 400;
-    color: var(--neutral);
-}
-.city{
-    display: block;
-    margin-top: 0.5rem;
-    font-weight: 400;
-    font-size: 0.92rem;
     color: var(--neutral);
 }
 .profile-status{
@@ -101,7 +104,7 @@ main{
     gap: 3.2rem;
 }
 .profile-status >div p{
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     color: var(--secondary);
     font-weight: 700;
 
@@ -111,7 +114,7 @@ main{
     margin-top: 0.1rem;
     color: var(--neutral);
     font-weight: 700;
-    font-size: 0.55rem;
+    font-size: 0.58rem;
     letter-spacing: 0.08rem;
 }
 .profile-status > div:last-child{
@@ -125,12 +128,11 @@ main{
         font-size: 14px;
     }
     .wrapper::before{
-        top: -45rem;
-        left: -52rem;
-        
+        bottom: 35vh;
+        right: 41vw;
     }
     .wrapper::after{
-        bottom: -45rem;
-        right: -50.5rem;
+        top: 43vh;
+        left: 25vw;
     }
 }
