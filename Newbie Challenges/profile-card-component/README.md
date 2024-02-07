@@ -13,7 +13,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
   - [Continued development](#continued-development)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 Profile Card Component Solution 
@@ -23,12 +22,12 @@ Profile Card Component Solution
 - Build out the project to the designs provided
 
 ### Screenshot
-
+<img width="400" alt="profile-card-ss" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/a4307bcb-a0cc-4775-8295-436050aeb6c7">
 
 ### Links
 
-- Solution URL: [GitHub Repo](https://github.com/KaushalSonic/Frontend-Mentor/tree/main/Newbie%20Challenges/qr-code-component-main)
-- Live Site URL: [Visit](https://qr-code-component-sable-eight.vercel.app/)
+- Solution URL: [GitHub Repo](https://github.com/KaushalSonic/Frontend-Mentor/tree/main/Newbie%20Challenges/profile-card-component)
+- Live Site URL: [Visit](https://glistening-melomakarona-d341bc.netlify.app/)
 
 ### Built with
 
