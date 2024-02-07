@@ -22,7 +22,7 @@ Profile Card Component Solution
 - Build out the project to the designs provided
 
 ### Screenshot
-<img width="400" alt="profile-card-ss" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/a4307bcb-a0cc-4775-8295-436050aeb6c7">
+<img width="400" alt="profile-card" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/655a147c-32ac-4b89-8327-af2780655a48">
 
 ### Links
 
@@ -59,15 +59,16 @@ I learnt and use ::before and ::after pseudo selector for placing two images in 
 .wrapper::before{
     content: url('./images/bg-pattern-top.svg');
     position: absolute;
-    top: -33rem;
-    left: -18.2rem;
+    /* Using vw, vh (viewport units) for resolve issue of displacement of images while upscale or downscale browser. */
+    bottom: 35vh;
+    right: 51.8vw;
     z-index: -1;
 }
 .wrapper::after{
     content: url('./images/bg-pattern-bottom.svg');
     position: absolute;
-    bottom: -40.5rem;
-    right: -14.2rem;
+    top: 51.5vh;
+    left: 47.5vw;
     z-index: -1;
 }
 ```
