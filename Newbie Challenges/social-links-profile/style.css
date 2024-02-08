@@ -81,7 +81,7 @@ nav a{
     border-radius: 0.4rem;
     font-size: 0.73rem;
     font-weight: 600;
-    transition: color 0.2s ease;
+    transition: 0.2s ease;
 }
 nav a:hover{
     background-color: var(--Green);
