@@ -1,0 +1,7 @@
+#For ignoring subdirectory that is level 2
+
+**/social-links-profile/design/
+**/profile-card-component/design/
+
+
+

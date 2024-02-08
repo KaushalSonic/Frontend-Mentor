@@ -18,6 +18,11 @@ html{
     font-size: 16px;
     font-family: 'Kumbh Sans', sans-serif;
 }
+
+/* I can also use this method */
+
+/* background-image: url(' ./images/bottom.png'), url('./images/top.png');
+background-position: right 50vw bottom 40vh ,left 45vw top 60vh;  */
  
 /* Custom Properties */
 .wrapper{
@@ -95,7 +100,7 @@ main{
     color: var(--neutral);
 }
 .profile-status{
-    border-top: 1px solid var(--neutral);
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
     margin-top: 1.5rem;
     width: 100%;
     padding-top: 1.5rem;
