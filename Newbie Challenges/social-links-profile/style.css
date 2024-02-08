@@ -31,7 +31,7 @@ html{
 main{
     border-radius: 0.6rem;
     width: 20rem;
-    height: 32rem;
+    height: 31.rem;
     text-align: center;
     background-color: var(--Dark-Grey);
 }
@@ -79,7 +79,7 @@ nav a{
     color: var(--White);
     padding: 0.72rem 0;
     border-radius: 0.4rem;
-    font-size: 0.75rem;
+    font-size: 0.73rem;
     font-weight: 600;
     transition: color 0.2s ease;
 }
@@ -87,5 +87,11 @@ nav a:hover{
     background-color: var(--Green);
     color: black;
 }
+/* For Mobile responsiveness */
 
+@media screen and (max-width: 400px){
+    nav{
+        padding: 1.2rem 1.5rem;
+    }
+}
 
