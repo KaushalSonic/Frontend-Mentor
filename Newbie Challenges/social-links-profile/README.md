@@ -11,7 +11,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -25,11 +24,13 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
+<img width="350" alt="social-links ss" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/4b9160af-8d4f-47d5-a3e1-7d722ea6e7a7">
 
 ### Links
 
-- Solution URL: [GitHub Repo](https://github.com/KaushalSonic/Frontend-Mentor/tree/main/Newbie%20Challenges/profile-card-component)
-- Live Site URL: [Visit](https://glistening-melomakarona-d341bc.netlify.app/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/social-links-profile-g2bEW2tIof)
+
+- Live Site URL: [Visit](https://social-links-profile-kaushalsonic.netlify.app/)
 
 ### Built with
 
