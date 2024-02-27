@@ -35,9 +35,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/social-links-profile-g2bEW2tIof)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/3-column-preview-card-component-vUpy0Dp4bT)
 
-- Live Site URL: [Visit](https://social-links-profile-kaushalsonic.netlify.app/)
+- Live Site URL: [Visit](https://main--3card-component-kaushalsonic.netlify.app/)
 
 
 ### Built with
