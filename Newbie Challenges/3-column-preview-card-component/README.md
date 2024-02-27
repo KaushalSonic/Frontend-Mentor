@@ -26,8 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-<img width="350" alt="social-links ss" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/4b9160af-8d4f-47d5-a3e1-7d722ea6e7a7">
+* Desktop View
+<img width="350" alt="3card-desktop-view" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/24429566-97ef-4de8-9f86-d9412c55c4af">
+<img width="350" alt="active state" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/9db53ac0-8f1b-4abc-aff6-4a49abc65df5">
 
+* Mobile View
+<img width="200" alt="mobile view" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/b2cdf5d2-b389-4a0b-b066-0ce691a2e94b">
 
 ### Links
 
