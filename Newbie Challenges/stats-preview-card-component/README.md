@@ -33,9 +33,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/3-column-preview-card-component-vUpy0Dp4bT)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/stats-preview-card-component-cd71WcZtZ4)
 
-- Live Site URL: [Visit](https://main--3card-component-kaushalsonic.netlify.app/)
+- Live Site URL: [Visit](https://stats-card-kaushalsonic.netlify.app/)
 
 
 ### Built with
