@@ -25,10 +25,11 @@ Users should be able to:
 ### Screenshot
 
 * Desktop View
-<img width="350" alt="3card-desktop-view" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/24429566-97ef-4de8-9f86-d9412c55c4af">
+<img width="350" alt="stats desktop" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/6e54db46-bfc9-462a-acf6-7012fc3c1c0f">
 
 * Mobile View
-<img width="200" alt="mobile view" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/b2cdf5d2-b389-4a0b-b066-0ce691a2e94b">
+<img width="200" alt="stats mobile" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/1f83d142-823c-40ba-b484-c60081026190">
+
 
 ### Links
 
