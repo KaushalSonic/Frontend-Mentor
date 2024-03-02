@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    /* Primary Color */
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+    --text-col: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+ 
+/* Custom Properties */
+.wrapper{
+    background-image: url('./images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--Violet);
+    min-height: 100vh;
+    padding: 1.4rem 5rem;
+}
+nav{
+    margin-top: 0.8rem;
+}
+nav img{
+    width: 10rem;
+}
+main{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 55% 1fr;
+    grid-template-rows: 1fr;
+}
+.container-image img{
+    width: 100%;
+    object-fit: cover;
+}
+.container-data{
+    padding-top: 2.3rem;
+    padding-left: 1.5rem;
+}
+.context h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: var(--text-col);
+    font-size: 2.25rem ;
+}
+.context p{
+    margin-top: 1.5rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: var(--text-col);
+    font-size: 1.01rem;
+    padding-right: 0.5rem;
+}
+.context button{
+    margin-top: 1.5rem;
+    color: var(--Violet);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 0.92rem;
+    background-color: var(--text-col);
+    border: none;
+    outline: none;
+    padding: 0.7rem 3rem;
+    border-radius: 20rem;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.context button:hover{
+    background-color: var(--Soft-Magenta);
+    color: var(--text-col);
+}
+
+/* Links */
+
+.links-container{
+    margin-top: 1rem;
+}
+.links{
+    display: flex;
+    justify-content: end;
+    gap: 0.8rem;
+}
+.link{
+    border: 1px solid var(--text-col);
+    border-radius: 50%;
+    color: var(--text-col);
+    display: grid;
+    place-items: center;
+    padding: 0.4rem;
+    font-size: 1.1rem;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.link:hover{
+    border: 1px solid var(--Soft-Magenta);
+    color: var(--Soft-Magenta);
+}
+
+
+/* For Responsiveness */
+
+@media screen and (max-width: 1279px){
+    .wrapper{
+        padding: 1.5rem 2rem;
+    }
+}
+@media screen and (max-width: 960px){
+    html{
+        font-size: 12px;
+    }
+}
+
+/* For Mobile View */
+
+@media screen and (max-width: 600px){
+    html{
+        font-size: 16px;
+    }
+    .wrapper{
+        background-image: url('./images/bg-mobile.svg');
+    }
+    nav img{
+        width: 8rem;
+    }
+    main{
+        display: block;
+        margin-top: 2.5rem;
+    }
+    .container-data{
+        padding: 0;
+        margin-top: 3.5rem;
+        text-align: center;
+    }
+    .context h1{
+        font-size: 1.4rem;
+    }
+    .context p{
+        margin: 1rem 0;
+        font-size: 0.98rem;
+        padding: 0;
+    }
+    .context button{
+        padding: 0.65rem 4.5rem;
+        font-size: 0.75rem;
+        margin-top: 1rem;
+    }
+    .links-container{
+        margin: 4rem 0 1rem 0;
+    }
+    .links{
+        justify-content: center;
+        gap: 0.7rem;
+    }
+    .link{
+        padding: 0.3rem;
+        font-size: 0.9rem;
+    }
+}
