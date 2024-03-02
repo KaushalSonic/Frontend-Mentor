@@ -22,14 +22,14 @@ html{
     background-repeat: no-repeat;
     background-size: contain;
     background-color: var(--Violet);
-    min-height: 100vh;
+    min-height: 39.5rem;
     padding: 1.4rem 5rem;
 }
 nav{
     margin-top: 0.8rem;
 }
 nav img{
-    width: 10rem;
+    width: 14vw;
 }
 main{
     margin-top: 2rem;
@@ -49,15 +49,17 @@ main{
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     color: var(--text-col);
-    font-size: 2.25rem ;
+    /* font-size: 2.25rem; */
+    font-size: 2.78vw;
+    padding-right: 1.5rem;
 }
 .context p{
-    margin-top: 1.5rem;
+    margin-top: 1.2rem;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     color: var(--text-col);
-    font-size: 1.01rem;
-    padding-right: 0.5rem;
+    font-size: 1.25vw;
+    padding-right: 0.8rem;
 }
 .context button{
     margin-top: 1.5rem;
@@ -82,7 +84,7 @@ main{
 /* Links */
 
 .links-container{
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 .links{
     display: flex;
@@ -127,6 +129,7 @@ main{
     }
     .wrapper{
         background-image: url('./images/bg-mobile.svg');
+        min-height: 100vh;
     }
     nav img{
         width: 8rem;
@@ -142,6 +145,7 @@ main{
     }
     .context h1{
         font-size: 1.4rem;
+        padding: 0;
     }
     .context p{
         margin: 1rem 0;
