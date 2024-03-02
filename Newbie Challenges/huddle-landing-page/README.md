@@ -35,9 +35,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/stats-preview-card-component-cd71WcZtZ4)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/huddle-landing-page-with-hero-section--VG9EF7h8v)
 
-- Live Site URL: [Visit](https://stats-card-kaushalsonic.netlify.app/)
+- Live Site URL: [Visit](https://huddle-page-kaushalsonic.netlify.app/)
 
 ### Built with
 
