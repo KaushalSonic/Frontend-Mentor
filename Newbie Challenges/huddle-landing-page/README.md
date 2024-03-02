@@ -27,11 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
-- Desktop View
-  <img width="350" alt="stats desktop" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/6e54db46-bfc9-462a-acf6-7012fc3c1c0f">
+* Desktop View <br><br>
+  <img width="350" alt="stats desktop" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/618d0fce-8de9-49eb-b0a8-8da94713dae1">
 
-- Mobile View
-  <img width="200" alt="stats mobile" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/1f83d142-823c-40ba-b484-c60081026190">
+* Mobile View <br><br>
+  <img width="200" alt="stats mobile" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/f33a0160-b1a6-491d-84dd-6ad59b9420a0">
 
 ### Links
 
