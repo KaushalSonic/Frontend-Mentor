@@ -5,7 +5,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
@@ -19,12 +18,17 @@ Recipe Page Challenge
 
 ### Screenshot
 
+* Desktop View <br><br>
+  <img width="350" alt="recipe-desktop" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/b6a1a90f-f614-493d-94cc-c76f8c3145e5">!
+
+* Mobile View <br><br>
+  <img width="200" alt="recipe-mobile" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/51ee1c58-73f8-4dbc-a282-fa7febe74deb">
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/huddle-landing-page-with-hero-section--VG9EF7h8v)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/recipe-page-zfd_DZ4cOB)
 
-- Live Site URL: [Visit](https://huddle-page-kaushalsonic.netlify.app/)
+- Live Site URL: [Visit](https://omelette-recipe-page-kaushalsonic.netlify.app/)
 
 ### Built with
 
