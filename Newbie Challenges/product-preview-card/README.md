@@ -10,7 +10,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Links](#links)
   - [Built with](#built-with)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 
@@ -28,16 +27,16 @@ Users should be able to:
 ### Screenshot
 
 * Desktop View <br><br>
-  <img width="350" alt="stats desktop" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/618d0fce-8de9-49eb-b0a8-8da94713dae1">
+  <img width="500" alt="product preview desktop view" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/98807210-51cc-41ae-9b74-a9b34fce5f7d">
 
 * Mobile View <br><br>
-  <img width="200" alt="stats mobile" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/f33a0160-b1a6-491d-84dd-6ad59b9420a0">
+  <img width="200" alt="product preview mobile view" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/67d3ed11-c36b-48e5-9313-8f4dfaa48a09">
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/huddle-landing-page-with-hero-section--VG9EF7h8v)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/product-preview-card-eJ6M8ChPn9)
 
-- Live Site URL: [Visit](https://huddle-page-kaushalsonic.netlify.app/)
+- Live Site URL: [Visit](https://product-card1-kaushalsonic.netlify.app/)
 
 ### Built with
 
@@ -47,7 +46,7 @@ Users should be able to:
 
 ### What I learned
 
-I learnt how to implement approx. alignments of the  product preview card design.
+I learnt how to implement approx. alignments of the  product preview card design using flex box.
 
 ### Continued development
 
