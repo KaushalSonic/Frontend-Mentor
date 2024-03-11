@@ -1,6 +1,6 @@
-# Frontend Mentor - Product preview card component solution
+# Frontend Mentor - Four card feature section solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -9,20 +9,19 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
 - [Author](#author)
 
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
-
-Product Preview Card Challenge
 
 ### The challenge
 
 Users should be able to:
 
-- View the optimal layout depending on their device's screen size
-- See hover and focus states for interactive elements
+- View the optimal layout for the site depending on their device's screen size
 
 ### Screenshot
 
@@ -38,22 +37,55 @@ Users should be able to:
 
 - Live Site URL: [Visit](https://product-card1-kaushalsonic.netlify.app/)
 
+
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- CSS Grid
+
 
 ### What I learned
 
-I learnt how to implement approx. alignments of the product preview card design using flex box.
+In this challenge how to implement given card layouts and alignments using absolute positioning and relative positioning to card and its children.
+
+
+
+```html
+<div class="card-section">
+  <div class="card"></div>
+  <div class="card"></div>
+  <div class="card"></div>
+  <div class="card"></div>
+</div>
+```
+```css
+.card{
+    position: relative;
+    width: 18rem;
+    height: 11.5rem;
+    background-color: white;
+}
+.card:nth-child(1){
+    position: absolute;
+    left: -20rem;
+}
+.card:nth-child(4){
+    position: absolute;
+    right: -20rem;
+}
+```
+
 
 ### Continued development
 
 I will continue this learning path of making hand on learning to implement web desings.
+
 
 ## Author
 
 - Website - [Kaushal Kishore](https://my-portfolio-one-one.vercel.app/)
 - Frontend Mentor - [@KaushalSonic](https://www.frontendmentor.io/profile/KaushalSonic)
 - Linkedin - [Kaushal Kishore](https://www.linkedin.com/in/kaushal-kishore-b373111a8/)
+

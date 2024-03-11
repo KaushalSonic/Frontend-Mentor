@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+    /* Primary Color */
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+
+    /* Neutrals */
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+}
+ 
+/* Custom Properties */
+.wrapper{
+    padding: 3rem 0 2rem 0;
+    background-color: var(--Very-Light-Gray);
+}
+main{
+    display: grid;
+    place-items: center;
+}
+/* Title Box */
+.title-box{
+    width: 28rem;
+    text-align: center;
+}
+.title-box h1{
+    font-weight: 200;
+    font-size: 1.92rem;
+    line-height: 2.5rem;
+}
+h1, h2{
+    color: var(--Very-Dark-Blue);   
+}
+p{
+    color: var(--Grayish-Blue);
+}
+.title-box h1 span{
+    font-weight: 600;
+    display: block;
+}
+.title-box .title-info{
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
+
+/* Card Section starts */
+.card-section{
+    position: relative;
+    margin-top: 3rem;
+    display: grid;
+    place-items: center;
+    gap: 2rem;
+}
+.card{
+    position: relative;
+    width: 18rem;
+    height: 11.5rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 4px -15px,rgba(0, 0, 0, .14) 0 6px 8px 0,rgba(0, 0, 0, .12) 0 1px 15px 0;
+}
+.card h2{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.card .card-detail{
+    font-size: 0.65rem;
+    padding-right: 2rem;
+    font-weight: 400;
+}
+.card .card-logo{
+    position: absolute;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    width: 2.8rem;
+    height: 2.8rem;
+}
+.card .card-logo img{
+    width: 100%;
+    object-fit: cover;
+}
+.card::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0.25rem;
+}
+/* for card colorful stripes */
+.card:nth-child(1)::before{
+    background-color: var(--Cyan);
+}
+.card:nth-child(2)::before{
+    background-color: var(--Red);
+}
+.card:nth-child(3)::before{
+    background-color: var(--Orange);
+}
+.card:nth-child(4)::before{
+    background-color: var(--Blue);
+}
+
+/* for alignments of the cards */
+.card:nth-child(1){
+    position: absolute;
+    left: -20rem;
+}
+.card:nth-child(4){
+    position: absolute;
+    right: -20rem;
+}
+/* Card Section ends */
+
+/* -------------------------------------------------- */
+/* For Responsivenes */
+
+/* For tab view */
+@media screen and (max-width: 960px){
+    html{
+        font-size: 11px;
+    }
+    .wrapper{
+        display: block;
+    }
+}
+
+/* for mobile view */
+@media screen and (max-width: 600px){
+    html{
+        font-size: 16px;
+    }
+    .wrapper{
+        padding: 3rem 1.5rem;
+        height: auto;
+    }
+    main{
+        width: 100%;
+    }
+    .title-box{
+        width: 100%;
+    }
+    .title-box h1{
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+    .title-box .title-info{
+        margin-top: ;
+        font-size: 0.92rem;
+    }
+    .card-section{
+        gap: 1.4rem;
+    }
+    .card{
+        width: 100%;
+    }
+    .card:nth-child(1){
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    .card:nth-child(4){
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+}
