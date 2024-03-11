@@ -80,6 +80,7 @@ p{
     font-weight: 600;
 }
 .card .card-detail{
+    margin-top: 0.5rem;
     font-size: 0.65rem;
     padding-right: 2rem;
     font-weight: 400;
@@ -163,6 +164,9 @@ p{
     .title-box .title-info{
         margin-top: ;
         font-size: 0.92rem;
+    }
+    .card .card-detail{
+        margin-top: 0.3rem;
     }
     .card-section{
         gap: 1.4rem;
