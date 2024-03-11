@@ -26,16 +26,17 @@ Users should be able to:
 ### Screenshot
 
 * Desktop View <br><br>
-  <img width="500" alt="product preview desktop view" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/98807210-51cc-41ae-9b74-a9b34fce5f7d">
+  <img width="500" alt="four feature card desktop view" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/b3ec05b3-8f06-4f31-84db-1b5147d3cf40">
 
 * Mobile View <br><br>
-  <img width="200" alt="product preview mobile view" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/67d3ed11-c36b-48e5-9313-8f4dfaa48a09">
+  <img width="200" alt="four feature card mobile view" src="https://github.com/KaushalSonic/Frontend-Mentor/assets/88739514/a6044ab4-ec9f-4cbc-a9ec-eb5fad588263">
+  
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/product-preview-card-eJ6M8ChPn9)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/four-card-feature-section-TtzPQT7BN7)
 
-- Live Site URL: [Visit](https://product-card1-kaushalsonic.netlify.app/)
+- Live Site URL: [Visit](https://four-feature-card-kaushalsonic.netlify.app/)
 
 
 ### Built with
@@ -48,7 +49,7 @@ Users should be able to:
 
 ### What I learned
 
-In this challenge how to implement given card layouts and alignments using absolute positioning and relative positioning to card and its children.
+In this challenge I learnt how to implement given card layouts and alignments using absolute positioning and relative positioning to card and its children.
 
 
 
